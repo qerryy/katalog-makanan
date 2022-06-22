@@ -1,0 +1,76 @@
+body{
+			margin: 0;
+			padding: 0;
+			background: url(../gambar/mk2.jpg);
+			background-size: cover;
+			font-family: sans-serif;
+		}		
+		.box{
+			width: 55%;
+			height: 500px;
+			background: white;
+			margin: 70px 0px 0px 320px;
+			border: 2px solid white;
+			box-shadow: 0 15px 40px rgba(0,0,0,.5);
+		}
+		.box .left{
+			float: left;			
+			width: 55%;
+			height: 400px;			
+			box-sizing: border-box;			
+		}
+		.box .right{
+			float: right;
+			width: 45%;
+			height: 500px;
+			background: url(../gambar/mk3.jpg);			
+			background-size: cover;
+			box-sizing: border-box;
+		}
+		.formbox{
+			width: 100%;
+			padding: 40px 40px;
+			box-sizing: border-box;
+			height: 360px;
+		}
+		.formbox label{
+			font-size: 15px;
+			margin: 0;
+			padding: 0;
+			font-weight: bold;
+			color: tomato;
+		}
+		.formbox input, textarea{
+			width: 100%;
+			margin-bottom: 20px;
+		}
+		.formbox input[type="text"],input[type="number"],input[type="file"], textarea{
+			border: none;
+			border-bottom: 2px solid tomato;
+			outline: none;
+			height: 30px;
+		}
+		.formbox input[type="text"]:focus,input[type="number"]:focus,input[type="file"]:focus{
+			border-bottom: 2px solid gray;			
+		}
+		.formbox input[type="submit"]{
+			border: none;
+			height: 40px;
+			color: white;
+			background: #262626;
+			font-size: 15px;
+			font-weight: bold;
+			cursor: pointer;			
+		}
+		.formbox input[type="submit"]:hover{
+			background: tomato;
+		}
+		.formbox a{
+			color: tomato;
+		}
+		.formbox p, a{
+			margin: 0;
+			color: #262626;
+			font-size: 12px;
+			font-weight: bold;
+		}

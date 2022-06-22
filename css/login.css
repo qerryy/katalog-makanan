@@ -1,0 +1,83 @@
+body{
+			margin: 0;
+			padding: 0;
+			background: url(../gambar/mk0.png);
+			background-size: cover;
+			font-family: sans-serif;
+		}		
+		.box{
+			width: 50%;
+			height: 370px;
+			background: white;
+			margin: 100px 0px 0px 350px;
+			border: 2px solid white;
+			box-shadow: 0 15px 40px rgba(0,0,0,.5);
+		}
+		.box .left{
+			float: left;			
+			width: 40%;
+			height: 370px;
+			background: url(../gambar/mk1.png);
+			background-size: cover;
+			box-sizing: border-box;
+		}
+		.box .right{
+			float: right;
+			width: 60%;
+			height: 400px;			
+			box-sizing: border-box;
+		}
+		.formbox{
+			width: 100%;
+			padding: 70px 40px;
+			box-sizing: border-box;
+			height: 400px;			
+		}
+		.formbox label{
+			font-size: 18px;
+			margin: 0;
+			padding: 0;
+			font-weight: bold;
+			color: tomato;
+		}
+		.formbox input{
+			width: 100%;
+			margin-bottom: 20px;
+		}
+		.formbox input[type="text"],input[type="password"]{
+			border: none;
+			border-bottom: 2px solid tomato;
+			outline: none;
+			height: 40px;
+		}
+		.formbox input[type="text"]:focus,input[type="password"]:focus{
+			border-bottom: 2px solid gray;
+		}
+		.formbox input[type="submit"]{
+			border: none;
+			height: 40px;
+			color: white;
+			background: #262626;
+			font-size: 15px;
+			font-weight: bold;
+			cursor: pointer;			
+		}
+		.formbox input[type="submit"]:hover{
+			background: tomato;
+		}
+		.formbox a{
+			color: tomato;
+		}
+		.formbox p, a{
+			margin: 0;
+			color: #262626;
+			font-size: 12px;
+			font-weight: bold;
+		}
+		.alert{
+		background: #e44e4e;
+		color: white;
+		padding: 10px;
+		text-align: center;
+		border:1px solid #b32929;
+		}
